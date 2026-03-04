@@ -1,6 +1,4 @@
 <img width="801" height="621" alt="image" src="https://github.com/user-attachments/assets/7d9c5ffa-2735-409a-b977-636dcf9e3a83" />
-<img width="1320" height="565" alt="image" src="https://github.com/user-attachments/assets/53e8f947-4f32-48d6-a0bb-2e0ac9c0c6d4" />
-
 
 # 🔐 SparxByte Password Manager
 
@@ -243,3 +241,4 @@ Developed by a **Full Stack Web Application Developer** specializing in secure b
 If you find this project helpful, consider giving it a **star ⭐ on GitHub**.
 
 
+<img width="1320" height="565" alt="image" src="https://github.com/user-attachments/assets/53e8f947-4f32-48d6-a0bb-2e0ac9c0c6d4" />
