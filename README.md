@@ -1,4 +1,8 @@
-<img width="801" height="621" alt="image" src="https://github.com/user-attachments/assets/7d9c5ffa-2735-409a-b977-636dcf9e3a83" /># 🔐 SparxByte Password Manager
+<img width="801" height="621" alt="image" src="https://github.com/user-attachments/assets/7d9c5ffa-2735-409a-b977-636dcf9e3a83" />
+<img width="1320" height="565" alt="image" src="https://github.com/user-attachments/assets/53e8f947-4f32-48d6-a0bb-2e0ac9c0c6d4" />
+
+
+# 🔐 SparxByte Password Manager
 
 A modern and secure **Password Manager Web Application** built with **PHP, MySQL, JavaScript, and Bootstrap 5**.
 
@@ -237,8 +241,5 @@ Developed by a **Full Stack Web Application Developer** specializing in secure b
 # ⭐ Support
 
 If you find this project helpful, consider giving it a **star ⭐ on GitHub**.
-
-<img width="801" height="621" alt="image" src="https://github.com/user-attachments/assets/a91a49f7-2f62-48b7-bae6-9c722a35a30f" />
-<img width="1913" height="905" alt="image" src="https://github.com/user-attachments/assets/791d2886-c04f-481c-8d07-1bea4043573e" />
 
 
