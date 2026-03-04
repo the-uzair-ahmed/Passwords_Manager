@@ -97,4 +97,25 @@
       });
     });
   }
+
+  // Edit modal wiring
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest('[data-action="edit"]');
+    if (!btn) return;
+
+    const id = btn.getAttribute("data-id") || "";
+    document.getElementById("pm_edit_id").value = id;
+
+    document.getElementById("pm_edit_account_name").value = btn.getAttribute("data-account_name") || "";
+    document.getElementById("pm_edit_username").value = btn.getAttribute("data-username") || "";
+    document.getElementById("pm_edit_link").value = btn.getAttribute("data-link") || "";
+    document.getElementById("pm_edit_description").value = btn.getAttribute("data-description") || "";
+
+    // password field always blank for security
+    document.getElementById("pm_edit_password").value = "";
+
+    const modalEl = document.getElementById("editAccountModal");
+    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+    modal.show();
+  });
 })();

@@ -139,6 +139,9 @@ include __DIR__ . '/partials/modal.php';
                   <button class="btn btn-sm btn-outline-secondary" data-action="copy" data-id="<?php echo (int)$a['tbl_account_id']; ?>" data-csrf="<?php echo htmlspecialchars(csrf_token()); ?>">
                     <i class="fa-solid fa-copy"></i>
                   </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-action="edit" data-id="<?php echo (int)$a['tbl_account_id']; ?>" data-account_name="<?php echo htmlspecialchars($a['account_name'], ENT_QUOTES); ?>" data-username="<?php echo htmlspecialchars($a['username'], ENT_QUOTES); ?>" data-link="<?php echo htmlspecialchars($a['link'] ?? '', ENT_QUOTES); ?>" data-description="<?php echo htmlspecialchars($a['description'] ?? '', ENT_QUOTES); ?>" data-csrf="<?php echo htmlspecialchars(csrf_token()); ?>" title="Edit">
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
                   <form method="POST" action="./endpoint/delete-account.php" onsubmit="return confirm('Delete this account?');">
                     <input type="hidden" name="csrf" value="<?php echo htmlspecialchars(csrf_token()); ?>">
                     <input type="hidden" name="account_id" value="<?php echo (int)$a['tbl_account_id']; ?>">
